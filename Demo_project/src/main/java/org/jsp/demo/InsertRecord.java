@@ -15,7 +15,7 @@ public class InsertRecord {
 		
 		tran.begin();//Transection begins here
 		Employee e1 = new Employee();
-//		e.setId(0); //We dont need to add this, it will be generated automatically by generator
+//		e1.setId(0); //We dont need to add this, it will be generated automatically by generator
 		e1.setName("A");
 		e1.setSalary(45000);
 		ses.save(e1);
